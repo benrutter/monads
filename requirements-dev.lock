@@ -6,6 +6,8 @@
 #   features: []
 #   all-features: false
 #   with-sources: false
+#   generate-hashes: false
+#   universal: false
 
 -e file:.
 asttokens==2.4.1
@@ -51,7 +53,7 @@ importlib-metadata==7.0.1
 iniconfig==2.0.0
     # via pytest
 ipdb==0.13.13
-ipython==8.20.0
+ipython==8.30.0
     # via ipdb
 jaraco-classes==3.3.0
     # via keyring
@@ -184,6 +186,7 @@ traitlets==5.14.1
 twine==4.0.2
 typing-extensions==4.9.0
     # via black
+    # via ipython
     # via mypy
 urllib3==2.1.0
     # via requests
